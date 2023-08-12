@@ -1,0 +1,16 @@
+{
+  "name": "kotolopetts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server ./public -c-1 -o -a localhost -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "npm-watch": "^0.11.0"
+  }
+}

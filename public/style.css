@@ -1,0 +1,98 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #212121;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+    }
+}
+
+#main {
+    padding: 2rem;
+    min-height: 100%;
+    max-width: 360px;
+}
+
+#main::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #212121;
+    background-image: url('image/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__title {
+    color: #757575;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.0rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+
+}
+
+.main__header {
+    margin-bottom: 3rem;
+    
+}
+
+.main__subtitle {
+    font-size: 0.5rem;
+}
+
+canvas#wave-animation {
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    height: 160px;
+    width: 100vw;
+}
+
+.main p {
+    font-family: Montserrat, sans-serif;
+    font-size: 0.95rem;
+}
+
+.main__content {
+    width: 100%;
+    padding:  1rem;
+    background-color: rgba(51,51,51,0.3);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    text-shadow:  0px 0px 8px rgba(31,31,31,0.5);
+    color: #ffffff;
+}
+
+.main__content > * {
+
+    margin: 0 0 1rem 0;
+}
+
+.main__content > *:last-of-type {
+    margin-bottom: 0;
+}
+
+address.main__contact {
+    padding-top: 0.1rem;
+    font-style: normal;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+
