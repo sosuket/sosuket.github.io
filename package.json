@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "http-server ./public -c-1 -o -a localhost -p 8080"
+    "dev": "http-server ./docs -c-1 -o -a localhost -p 8080"
   },
   "keywords": [],
   "author": "",
