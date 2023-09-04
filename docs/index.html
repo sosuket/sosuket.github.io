@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K19WYB90X8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-K19WYB90X8");
+    </script>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>kotolopetts</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ae77c0c9b1.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ae77c0c9b1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="main">
-        <header class="main__header">
-            <h1 class="main__title">kotolopetts</h1>
-            <p class="main__subtitle">
-                The software development tribe that makes your ideal real<br>
-                with rapid and solid programming skills.
-            </p>
-            <div>
-                <img src="./image/flutter.svg" alt="Flutter" height="48" />
-                <img src="./image/ts-logo-128.svg" alt="TypeScript" height="48" />
-                <img src="./image/elm.svg" alt="Elm" height="48" />
-            </div>
-            <address class="main__contact">
-                sosuke@kotolopetts.com
-            </address>
-        </header>
-        <section class="main__content">
-            <h1>introduction</h1>
-            <p>
-                kotolopettsは古都鎌倉を拠点に"シンプルな解決策", "ドキュメンテーション", "属人性の低いシステム開発"をコンセプトとして、これまで自治体の基幹システムから最先端のロボットのR&DやCtoCのサービスなど幅広いプロダクトに携わってきた経験を活かしたソフトウェアの開発を行っています。
-            </p>
-        </section>
-        <section class="main__content">
-            <h1>works</h1>
-            <p>
-                スポーツテックベンチャー向けデータの収集及び分析用バッチ処理、それらの管理用webコンソールの設計/実装。同社の提供するモバイルアプリの設計及び実装。
-            </p>
-            <p>
-                産業用ロボット制御用ビジュアルプログラミング言語の設計/UIデザイン。
-            </p>
-            <p>
-                東証一部上場企業が運営するwebサービス及び管理画面の内製化支援。
-            </p>
-            <p>
-                など
-            </p>
-        </section>
+      <header class="main__header">
+        <h1 class="main__title">kotolopetts</h1>
+        <p class="main__subtitle">
+          The software development tribe that makes your ideal real<br />
+          with rapid and solid programming skills.
+        </p>
+        <div>
+          <img src="./image/flutter.svg" alt="Flutter" height="48" />
+          <img src="./image/ts-logo-128.svg" alt="TypeScript" height="48" />
+          <img src="./image/elm.svg" alt="Elm" height="48" />
+        </div>
+        <address class="main__contact">sosuke@kotolopetts.com</address>
+      </header>
+      <section class="main__content">
+        <h1>introduction</h1>
+        <p>
+          kotolopettsは古都鎌倉を拠点に"シンプルな解決策",
+          "ドキュメンテーション",
+          "属人性の低いシステム開発"をコンセプトとして、これまで自治体の基幹システムから最先端のロボットのR&DやCtoCのサービスなど幅広いプロダクトに携わってきた経験を活かしたソフトウェアの開発を行っています。
+        </p>
+      </section>
+      <section class="main__content">
+        <h1>works</h1>
+        <p>
+          スポーツテックベンチャー向けデータの収集及び分析用バッチ処理、それらの管理用webコンソールの設計/実装。同社の提供するモバイルアプリの設計及び実装。
+        </p>
+        <p>
+          産業用ロボット制御用ビジュアルプログラミング言語の設計/UIデザイン。
+        </p>
+        <p>東証一部上場企業が運営するwebサービス及び管理画面の内製化支援。</p>
+        <p>など</p>
+      </section>
     </div>
     <canvas id="wave-animation"></canvas>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
